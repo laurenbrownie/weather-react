@@ -9,7 +9,11 @@ function App() {
       <Weather />
       <br />
       <br />
-      <a href="https://https://github.com/laurenbrownie/weather-react">
+      <a
+        href="https://github.com/laurenbrownie/weather-react"
+        target="_blank"
+        rel="noreferrer"
+      >
         view source code
       </a>
     </div>
