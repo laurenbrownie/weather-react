@@ -4,11 +4,9 @@ import ReactDOM from "react-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello from React</h1>
-        <Weather city="Paris" />
-      </header>
+    <div>
+      <h1>this is a weather app</h1>
+      <Weather />
     </div>
   );
 }
