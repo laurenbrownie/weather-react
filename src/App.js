@@ -1,5 +1,6 @@
 import "./App.css";
 import Weather from "./Weather";
+import ReactDOM from "react-dom";
 
 function App() {
   return (
@@ -13,3 +14,5 @@ function App() {
 }
 
 export default App;
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
